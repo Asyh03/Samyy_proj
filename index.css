@@ -1,107 +1,103 @@
-@media screen and (max-width: 1024px) {
-    body{
-        background: linear-gradient(90deg, #5f2bc7, #baaeae);
+body{
+    background: linear-gradient(90deg, #5f2bc7, #baaeae);
         
-    }
-    header {
-        display: flex;
-        align-items: center;
-        color: whitesmoke;
-        padding: 30px;
-        margin-top: 10px 0;
-        background-image: url(dev.jpeg);
-        background-color: cover;
-        background-size: cover;
-    }
-    
-    .left {
-        margin-right: auto;
-    }
-    .log{
-        width: 50px;
-        margin-right: 1px;
-        border-radius: 90px;
-        box-shadow: 5px 5px 15px #b36565;
+}
+header {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    padding: 30px;
+    margin-top: 10px 0;
+    background-image: url(dev.jpeg);
+    background-color: cover;
+    background-size: cover;
     }
     
-    .right {
-        font-size: 10px;
-        margin-left: 12px;
-        color : white;
-        font-family: cursive;
-        text-shadow: 5px 5px 5px #fff;
-    }
-    .right:hover{
-        font-size: 20px;
-    }
+.left {
+    margin-right: auto;
+}
+.log{
+    width: 50px;
+    margin-right: 1px;
+    border-radius: 90px;
+    box-shadow: 5px 5px 15px #b36565;
+}
     
-    .content {
-        display: flex; 
-        font-family: cursive;
-        text-decoration: wavy;
-    }
+.right {
+    font-size: 10px;
+    margin-left: 12px;
+    color : white;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px #fff;
+}
+.right:hover{
+    font-size: 20px;
+}
     
-    .profile-pic {
-        width: 200px; 
-        height: auto; 
-        margin-right: 20px; 
-        padding-top: auto;
-        border-radius: 90px;
-        
-    }
-    .profile-pic:hover {
-        box-shadow: 5px 5px 10px #000000;
-        width: 250px; 
-        height: auto;
-    }
-    .img_pic{
-        display: flex;
-        font-family: cursive;
-    }
-    .project_pic{
-        width: 200px; 
-        height: 200px; 
-        margin-right: 20px; 
-        padding-top: auto;
-        border-radius: 70px;
-        box-shadow: 5px 5px 10px #000000;
-    }
-    h1,h2,h3,h4,h5{
+.content {
+    display: flex; 
+    font-family: cursive;
+    text-decoration: wavy;
+}
+    
+.profile-pic {
+    width: 200px; 
+    height: auto; 
+    margin-right: 20px; 
+    padding-top: auto;
+    border-radius: 90px;
+}
+.profile-pic:hover {
+    box-shadow: 5px 5px 10px #000000;
+    width: 250px; 
+    height: auto;
+}
+.img_pic{
+    display: flex;
+    font-family: cursive;
+}
+.project_pic{
+    width: 200px; 
+    height: 200px; 
+    margin-right: 20px; 
+    padding-top: auto;
+    border-radius: 70px;
+    box-shadow: 5px 5px 10px #000000;
+}
+h1,h2,h3,h4,h5{
         text-decoration: underline;
         justify-content: center;
         text-align: center;
         font-size: 50px;
     }
-    .art_work{
-        display: grid;
-        grid-template-columns: repeat(3,0.5fr);
-        gap: 5px;
-    }
-    .art_w{
-        display: grid;
-        justify-content: center;
-        height: 200px;
-        border-radius: 70px;
-        box-shadow: 5px 5px 10px #000000;
-    }
-    .art_w:hover{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 350px;
-        border-radius: 0px;
-    }
-    footer{
-        margin-left: 90%;
-        padding : 1px;
-        position: relative;
-        
-    }
-    .logo{
-        width: 40px;
-        height: auto;
-        border-radius: 100px;
-        box-shadow: 5px 5px 10px #000000;
-    }
-    }
+.art_work{
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    gap: 5px;
+}
+.art_w{
+    display: grid;
+    justify-content: center;
+    height: 200px;
+    border-radius: 70px;
+    box-shadow: 5px 5px 10px #000000;
+}
+.art_w:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    border-radius: 0px;
+}
+footer{
+    margin-left: 90%;
+    padding : 1px;
+    position: relative;
+}
+.logo{
+    width: 40px;
+    height: auto;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px #000000;
+}
     

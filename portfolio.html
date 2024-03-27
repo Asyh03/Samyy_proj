@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="left"><img src="../Img/Logo_Sam.png" alt="log" class ="log"></div>
+        <a href="#Un petit zoom sur moi " class="right">Me</a>
+        <a href="#Projets" class="right">Projets</a>
+        <a href="#Galerie" class="right">Galerie</a>
+        <a href="#Réseaux Sociaux" class="right">Réseaux Sociaux</a>
+    </header>
+    <br>
+    <h1 id="Un petit zoom sur moi">Un petit zoom sur moi</h1>
+    <div class="content">
+        <img src="../Img/photo_sam.jpg" alt="pic" class="profile-pic">
+        <aside>
+            <p>Bonjour, je suis AHETO Samuel, j'ai 21 ans et je suis un jeune passionné
+                de codage et de développement. <br> Depuis tout petit j'ai toujours été en contact
+                avec l'ordinateur et je n'ai connu mes premiers bouts de codes qu'en ma première année
+                de licence de mathématiques et c'est là que mon amour pour la programmation pris feu.
+                Toujours curieux de vouloir comprendre tout ce qui se passe derrière toutes les applications
+                et tous les sites Web que nous utilisons, mon regard s'est vite tourné vers le développemnt Web.
+                Mon objectif est essentiellement de pouvoir concevoir une application qui pourra révolutionner le 
+                monde un jour.Alors pour y arriver je me suis lancé dans l'appentissage de certains langages comme
+                Python,Html,CSS et JavaScript. J'ai pu faire certains projets d'école qui
+                m'ont permis de pouvoir travailler encore sur ce que j'aime. <br>Je suis aussi un passionné de dessin.
+                A mes heures perdues, je m'aventure dans le monde de l'art car non seulement ça me détent mais aussi
+                me permet de developper ma créativité. Pour voir mes diverses oeuvres je vous invite à consulter
+                l'onglet <a href="#Galerie" class="right">Galerie</a></b>
+            </p>
+        </aside>
+    </div>
+    <h2 id = "Projets">Projets</h2>
+    <div class="img_pic">
+        <img src="../Img/Sier.jpeg" alt="pici" class = project_pic>
+        <aside>
+            <h3>
+                Le triangle Sierpinski
+            </h3>
+            L’objectif de ce programme serait essentiellement d’obtenir de manière récursive autrement dit en zoomant des triangles de identiques à chaque échelle e ce à partir d’un triangle de base.
+            Alors dans le cas ici nous allons former des triangles obtenus à partir des milieux du triangle de base, appliquer le même procédé pour chaque triangle obtenu et ainsi de suite.
+            Alors nous allons suivre les étapes suivantes :
+            Cette fonction prendra en paramètres trois points qui constituent les sommets du triangle de base et un nombre d’itérations <em>n</em> entré au clavier.
+            On distingue 2 principaux cas : <br>
+            <u>Cas1 </u>:  Si <em>n</em>=0, on obtiendra le triangle de base. C’est-à-dire on a aucune transformation. <br>
+            <u>Cas2</u> : Si <em>n</em>≠0, alors, au préalable, on déterminera les milieux de chaque coté du triangle grâce à une fonction et ensuite de manière récursive on appelera la fonction Sierpinski()
+             sur chaque triangle formé par les milieux et les points du triangle de base.
+        </aside>
+    </div>
+    <br>
+    <div class = "img_pic">
+        <img src="../Img/100.jpg" alt="pici" class = "project_pic">
+        <aside>
+            <h4>
+                L'ensemble de Mandelbrot
+            </h4>
+            L'ensemble de Mandelbrot est défini dans le plan complexe. Pour chaque point <em>c</em> dans ce plan, 
+            on définit une suite récurrente en utilisant la fonction quadratique <em>f(z) = z² + c</em>, 
+            où <em>z</em> est un nombre complexe initial. Si la suite résultante reste bornée 
+            (c'est-à-dire qu'elle ne diverge pas vers l'infini), alors le point <em>c</em> fait partie de l'ensemble de Mandelbrot. Sinon, si la suite diverge, 
+            le point <em>c</em> n'appartient pas à l'ensemble.
+        </aside>
+    </div>
+    <h5 id="Galerie">Galerie</h5>
+    <div class = art_work>
+        <img src="../Img/Dessin_4.jpg" alt="art1" class = art_w>
+        <img src="../Img/Dessin_6.jpg" alt="art1" class = art_w>
+        <img src="../Img/DEssin_3.jpg" alt="art1" class = art_w>
+        <img src="../Img/Dessin_1.jpg" alt="art1" class = art_w>
+        <img src="../Img/Dessin_5.jpg" alt="art1" class = art_w>
+        <img src="../Img/Dessin_2.jpg" alt="art1" class = art_w>
+        <img src="../Img/Dessin_7.jpg" alt="art1" class = art_w>
+        <img src="../Img/Dessin_8.jpg" alt="art1" class = art_w>
+        <img src="../Img/Dessin_9.jpg" alt="art1" class = art_w>
+    </div>
+    <br>
+    <br>
+    <footer id = "Réseaux Sociaux">
+        <a href="https://www.instagram.com/a_s_y03?igsh=c2Qya2ZqcnZtbzFt"><img src="../Img/insta_logo1.jpeg" alt="logo" class="logo"></a>
+        <a href="https://www.tiktok.com/@sam_asy?_t=8kXHcvRYDkk&_r=1"><img src="../Img/logo_tiktok.jpeg" alt="logo" class="logo"></a>
+    </footer>
+</body>
+</html>

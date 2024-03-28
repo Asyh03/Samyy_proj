@@ -100,4 +100,10 @@ footer{
     border-radius: 100px;
     box-shadow: 5px 5px 10px #000000;
 }
+.voir{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+}
     

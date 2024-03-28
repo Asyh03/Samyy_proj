@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Formulaire</title>
+    <link href="form.css" rel="stylesheet" >
+    <script src="formulaire.js" defer></script>
+
+</head>
+<header>
+    <img src="redim.jpg" alt="photo" height="200" width="800">
+</header>
+<br>
+<body>
+    <div>
+
+    
+        <form method = "get" action = "../dossier-demo/a-propos.html" >
+            <fieldset>
+                <h1>VOTRE AVIS NOUS INTERESSE SUR LE PROGRAMME DE 40 JOURS DE REDIMENSIONNEMENT</h1>
+                <p>
+                    Dans le but d'améliorer notre programme de 40 jours de redimensionnement, merci de prendre quelques minutes 
+                    pour répondre à ce <strong>sondage anonyme</strong> afin de nous faire part de vos impressions.
+                </p>
+                <hr>
+
+            </fieldset>
+            <p></p>
+
+            <fieldset>
+                <p>
+                    <label for="Sexe" required>Sexe</label>
+                </p>
+                <input type="radio" name="sexe" value = "Masculin" id = "Masculin"><label for = "Masculin">Masculin</label><br>
+                <input type="radio" name="sexe" value = "Féminin" id = "Féminin"><label for = "Féminin">Féminin</label><br>
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <p>
+                    <label for="Fréquence de participation" required>Fréquence de participation</label>
+                </p>
+                <input type="radio" name ="frequency" value = "Toujours" id = "Toujours"><label for = "Toujours">Toujours</label><br>
+                <input type="radio" name="frequency" value = "Régulièrement" id = "Régulièrement"><label for = "Régulièrement">Régulièrement</label><br>
+                <input type="radio" name="frequency" value = "Occasionnellement" id = "Occasionnellement"><label for = "Occasionnellement">Occasionnellement</label><br>
+                <input type="radio" name="frequency" value = "Rarement" id = "Rarement"><label for = "Rarement">Rarement</label><br>
+                <input type="radio" name="frequency" value = "Jamais participé" id = "Jamais participé"><label for = "Jamais participé">Jamais participé</label><br>
+                <input type="radio" name="frequency" value = "Autre" id = "Autre"><label for = "Autre">Autre</label>
+                <textarea name="frequency"></textarea>
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <p>
+                    <label for="Fais-tu partie des gens qui invitent d'autres personnes à prendre part au programme en partageant le lien ?" required>Fais-tu partie des gens qui invitent d'autres personnes à prendre part au programme en partageant le lien ?</label>
+                </p>
+                <input type="radio" name ="f"value = "Non" id = "Oui" required><label for = "Oui">Oui</label><br>
+                <input type="radio" name="f" value = "Non" id = "Non"required><label for = "Non">Non</label><br>
+                <input type="radio" name="f" value = "De temps en temps" id = "De temps en temps"required><label for = "De temps en temps">De temps en temps</label><br>
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <p>
+                    <label for="motivation">Qu'est ce qui vous motive à participer au programme ?</label>
+                </p>
+                <textarea name="motivation" placeholder="Votre réponse" required></textarea>
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <p>
+                    <label for="appreciation"> Appréciez-vous la durée des séances ?</label>
+                </p>
+                <input type="radio" name="choice" value = "Oui" required> <label for="Oui">Oui</label><br>
+                <input type="radio" name="choice" value = "Non" required><label for="Non">Non</label><br>
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <p>
+                    <label for="proposition"> Sinon à la question précédente quelle est votre proposition ?</label> <br>
+                    <textarea name="proposition"></textarea>
+                </p>
+            </fieldset> 
+            <input type="submit" value = "Envoyez"> 
+ 
+    </div>
+</form>
+</body>
+</html>

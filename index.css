@@ -101,10 +101,12 @@ footer{
     box-shadow: 5px 5px 10px #000000;
 }
 .voir{
-    color : white;
+    color : #fff;
     justify-content: center;
     text-align: center;
+    font-size: 25px;
+}
+.voir:hover{
     font-size: 30px;
-
 }
     

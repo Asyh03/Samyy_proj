@@ -8,7 +8,7 @@
 
 </head>
 <header>
-    <img src="redim.jpg" alt="photo" height="200" width="800">
+    <img src="Reseaux_sociaux.jpeg" alt="photo">
 </header>
 <br>
 <body>
@@ -17,15 +17,14 @@
     
         <form method = "get" action = "thanks.html" >
             <fieldset>
-                <h1>VOTRE AVIS NOUS INTERESSE SUR LE PROGRAMME DE 40 JOURS DE REDIMENSIONNEMENT</h1>
+                <h1>FORMULAIRE D'AUTO-QUESTIONNEMENT</h1>
                 <p>
-                    Dans le but d'améliorer notre programme de 40 jours de redimensionnement, merci de prendre quelques minutes 
-                    pour répondre à ce <strong>sondage anonyme</strong> afin de nous faire part de vos impressions.
+                    Ce formulaire est dans le but d'analyser le temps que vous passez sur votre téléphone.
+                    Pour ce fait, nous avous proposons ce <strong>sondage anonyme</strong> afin que vous fassiez votre introspection.
                 </p>
                 <hr>
-
             </fieldset>
-            <p></p>
+            <br>
 
             <fieldset>
                 <p>
@@ -34,51 +33,56 @@
                 <input type="radio" name="sexe" value = "Masculin" id = "Masculin"><label for = "Masculin">Masculin</label><br>
                 <input type="radio" name="sexe" value = "Féminin" id = "Féminin"><label for = "Féminin">Féminin</label><br>
             </fieldset>
-            <p></p>
+            <br>
             <fieldset>
                 <p>
-                    <label for="Fréquence de participation" required>Fréquence de participation</label>
+                    <label for="Fréquence de participation" required>Combien de temps en moyenne passez-vous sur votre téléphone par jour ?</label>
                 </p>
-                <input type="radio" name ="frequency" value = "Toujours" id = "Toujours"><label for = "Toujours">Toujours</label><br>
-                <input type="radio" name="frequency" value = "Régulièrement" id = "Régulièrement"><label for = "Régulièrement">Régulièrement</label><br>
-                <input type="radio" name="frequency" value = "Occasionnellement" id = "Occasionnellement"><label for = "Occasionnellement">Occasionnellement</label><br>
-                <input type="radio" name="frequency" value = "Rarement" id = "Rarement"><label for = "Rarement">Rarement</label><br>
-                <input type="radio" name="frequency" value = "Jamais participé" id = "Jamais participé"><label for = "Jamais participé">Jamais participé</label><br>
-                <input type="radio" name="frequency" value = "Autre" id = "Autre"><label for = "Autre">Autre</label>
-                <textarea name="frequency"></textarea>
+                <input type="radio" name ="frequency" value = "Toujours" id = "Toujours"><label for = "Toujours">Moins d'une Heure</label><br>
+                <input type="radio" name="frequency" value = "Régulièrement" id = "Régulièrement"><label for = "Régulièrement">Entre 1h et 4h </label><br>
+                <input type="radio" name="frequency" value = "Occasionnellement" id = "Occasionnellement"><label for = "Occasionnellement">Entre 4h et 8h</label><br>
+                <input type="radio" name="frequency" value = "Souvent" id = "Souvent"><label for = "Souvent">Entre 8h et 12h</label><br>
+                <input type="radio" name="frequency" value = "Rarement" id = "Rarement"><label for = "Rarement">Toute la journée</label><br>
             </fieldset>
-            <p></p>
+            <br>
             <fieldset>
                 <p>
-                    <label for="Fais-tu partie des gens qui invitent d'autres personnes à prendre part au programme en partageant le lien ?" required>Fais-tu partie des gens qui invitent d'autres personnes à prendre part au programme en partageant le lien ?</label>
+                    <label for="appreciation"> Quels réseaux sociaux utilisez-vous le plus souvent ?</label>
                 </p>
-                <input type="radio" name ="f"value = "Non" id = "Oui" required><label for = "Oui">Oui</label><br>
-                <input type="radio" name="f" value = "Non" id = "Non"required><label for = "Non">Non</label><br>
-                <input type="radio" name="f" value = "De temps en temps" id = "De temps en temps"required><label for = "De temps en temps">De temps en temps</label><br>
+                <input type="radio" value = "Non" required><label for="Non">Facebook</label><br>
+                <input type="radio" value = "Non" required><label for="Non">Instagram</label><br>
+                <input type="radio" value = "Non" required><label for="Non">Snapchat</label><br>
+                <input type="radio" value = "Oui" required> <label for="Oui">Tiktok</label><br>
+                
             </fieldset>
-            <p></p>
+            <br>
             <fieldset>
                 <p>
-                    <label for="motivation">Qu'est ce qui vous motive à participer au programme ?</label>
+                    <label for="question">Que faîtes-vous lorsque vous n'êtes pas sur votre téléphone ?</label> <br>
                 </p>
-                <textarea name="motivation" placeholder="Votre réponse" required></textarea>
-            </fieldset>
-            <p></p>
+                <textarea name="question"></textarea>
+            </fieldset> 
+            <br>
             <fieldset>
                 <p>
-                    <label for="appreciation"> Appréciez-vous la durée des séances ?</label>
+                    <label for="proposition"> Êtes-vous satisfaits de votre temps d'utilisation ?</label> <br>
                 </p>
-                <input type="radio" name="choice" value = "Oui" required> <label for="Oui">Oui</label><br>
-                <input type="radio" name="choice" value = "Non" required><label for="Non">Non</label><br>
-            </fieldset>
-            <p></p>
+                <input type="radio" name="choice" value = "Oui" required><label for="Oui">Oui</label><br>
+                    <input type="radio" name="choice" value = "Non" required><label for="Non">Non</label><br>
+            </fieldset> 
             <fieldset>
                 <p>
-                    <label for="proposition"> Sinon à la question précédente quelle est votre proposition ?</label> <br>
-                    <textarea name="proposition"></textarea>
+                    <label for="raison">Si oui pourquoi ?</label> <br>
+                </p>
+                <textarea name="question"></textarea>
+                <br>
+                <label for="raison">Sinon pourquoi ?</label> <br>
+                <p>
+                    <textarea name="question"></textarea>
                 </p>
             </fieldset> 
-            <input type="submit" value = "Envoyez"> 
+            <br>
+            <button class="btn"> <strong>Fini</strong></button>
  
     </div>
 </form>

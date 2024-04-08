@@ -2,4 +2,5 @@ body{
     background-image: url(Thank_you_sticker.gif);
     background-repeat: no-repeat;
     background-position-x: center;
+    background-color: linear-gradient(90deg, #5f2bc7, #baaeae);
 }

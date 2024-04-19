@@ -3,7 +3,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100em;
-  background-image: url(Moon.gif);
+  background-color:#1c1c1c;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,26 +12,33 @@ body{
 }
 section{
   position:relative;
-  max-width: 250px;
+  max-width: 250px ;
   border-radius: 20px;
   display: flex;
   padding: 2rem 3rem;
-  backdrop-filter : blur(10px);
+  background-color: #0101011;
+  box-shadow: 5px 7px 10px #fff;
+  opacity: 0.7;
   height: 20em;
-  border-color: white;
-  border: 1em;
-  
+  border: 3px solid transparent;
 }
+
+
 .inputbox input{
-  backdrop-filter : blur(10px);
+  position: relative;
+  background: transparent;
   width: 100%;
   height: 1.5em;
-  border: none;
-  outline: none;
+  border-top: 10em;
+  border-left: 10em;
+  border-right: 10em;
+  border-color: beige;
+  outline: none ;
   font-size: 1rem;
-  padding: 0 35px 0 5px;
+  padding: 20px 5px 0px ;
   color: black;
-  padding: 0.5em;
+  transition: 0.5s;
+  z-index: 10;
 }
 *{
   margin: 0;
@@ -52,10 +59,52 @@ button{
 }
 .Mot_de_passe_oublié{
   font-size: small;
+  color: #fff;
 }
 .Mot_de_passe_oublié:hover{
-
   align-items: left;
   text-decoration: underline;
   font-family: Arial;
+}
+.inputbox input:focus{
+  transform: translateY(-4px);
+  padding: 10px 15px 10px ;
+  border:none;
+  background-color: #fff;
+
+}
+.mdp{
+  font-size: 11px ;
+  color: white;
+  
+}
+.user{
+  font-size: 11px ;
+  font-family: "Poppins" ;
+  color: white;
+}
+h1{
+  color: #fff1ff;
+  text-align: center;
+}
+section {
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    border-color: transparent;
+  }
+  25% {
+    border-color: #45f3ff;
+  }
+  50% {
+    border-color: #ff4545;
+  }
+  75% {
+    border-color: #45ff45;
+  }
+  100% {
+    border-color: #f3ff45;
+  }
 }

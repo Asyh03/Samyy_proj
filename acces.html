@@ -8,14 +8,16 @@
 <body>
     <section>
         <form method="get" action="formulaire.html">
-            <h1>Renseignez vos informations</h1>
+            <h1>Sign in</h1> <br>
             <div class= "inputbox">
-                <label for="mail">Utilisateur :</label><br>
-                <input type="email" name="mail" id="mail" placeholder="exemple@gmail.com" >
+                
+                <input type="email" name="mail" id="mail" required> <br>
+                <label for="mail" ><span class = "user">Utilisateur</span</label>
             </div>
             <div class="inputbox">
-                <label for="password">Mot de passe :</label><br>
-                <input type="password" name="password" id="password" >
+                
+                <input type="password" name="password" id="password" required><br>
+                <label for="password"><span class = "mdp">Mot de passe</span></label><br>
             </div>
             <br>
             <button>Valider</button>

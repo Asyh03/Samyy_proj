@@ -35,7 +35,7 @@ section{
   border-color: beige;
   outline: none ;
   font-size: 1rem;
-  padding: 20px 5px 0px ;
+  padding: 20px 5px 10px ;
   color: black;
   transition: 0.5s;
   z-index: 10;
@@ -68,7 +68,7 @@ button{
 }
 .inputbox input:focus{
   transform: translateY(-4px);
-  padding: 10px 15px 10px ;
+  padding: 10px 1px 20px ;
   border:none;
   background-color: #fff;
 
@@ -94,6 +94,9 @@ section {
 @keyframes animate {
   0% {
     border-color: transparent;
+  }
+  10% {
+    border-color:brown;
   }
   25% {
     border-color: #45f3ff;
